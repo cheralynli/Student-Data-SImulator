@@ -1,5 +1,4 @@
 #include "grade_school.h"
-#include "grade_school.cpp"
 #include <iostream>
 
 int main() {
