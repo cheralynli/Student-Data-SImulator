@@ -24,7 +24,6 @@ int main() {
     for (const auto& name : grade1) {
         std::cout << name << " ";
     }
-    std::cout << "(Expected: Anna Barb Charlie)\n\n";
     
     // Test 3: Get students in grade 2
     std::cout << "3. Students in Grade 2:\n";
@@ -33,7 +32,6 @@ int main() {
     for (const auto& name : grade2) {
         std::cout << name << " ";
     }
-    std::cout << "(Expected: Alex Jim Zoe)\n\n";
     
     // Test 4: Try to get non-existent grade
     std::cout << "4. Students in Grade 99 (doesn't exist):\n";
